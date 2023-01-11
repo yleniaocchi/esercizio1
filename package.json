@@ -2,9 +2,10 @@
   "name": "esercizio1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "rimraf ./dist && parcel build index.html --public-url ./",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,9 +16,5 @@
   "bugs": {
     "url": "https://github.com/yleniaocchi/esercizio1/issues"
   },
-  "homepage": "https://github.com/yleniaocchi/esercizio1#readme",
-  "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "parcel": "^2.8.2"
-  }
+  "homepage": "https://github.com/yleniaocchi/esercizio1#readme"
 }
