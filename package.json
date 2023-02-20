@@ -1,5 +1,5 @@
 {
-  "name": "esercizio1",
+  "name": "portfolioyleniaocchi",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yleniaocchi/esercizio1/issues"
   },
-  "homepage": "https://github.com/yleniaocchi/esercizio1#readme"
+  "homepage": "https://github.com/yleniaocchi/esercizio1#readme",
+  "dependencies": {
+    "hamburgers": "^1.2.1"
+  }
 }
