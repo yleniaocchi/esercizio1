@@ -105,7 +105,7 @@ a {
     border-radius: 30px;
     background: rgba(159, 156, 161, 0.575);
     left: 100vw;
-    transition: ease-in-out 0.4s;
+    transition: all 0.4s cubic-bezier(.215, .61, .355, 1);
 }
 
 #menu.is-active {
@@ -179,6 +179,12 @@ a {
     margin-left: 30px;
 }
 
+@media (max-width: 768px) {
+.hero__content{
+    margin-left: 15px;
+}
+}
+
 .about {
     display: flex;
     height: 100vh;
@@ -241,13 +247,19 @@ a {
 }
 
 .carousel-cell {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     background-color: rgb(92, 5, 5);
     border-radius: 100%;
-    line-height: 350px;
+    line-height: 300px;
     text-align: center;
     margin-right: 30px;
+}
+
+.img-basket{
+height: 300px;
+width:300px;
+border-radius: 100%;
 }
 
 .footer {
@@ -305,12 +317,12 @@ a {
 @media (max-width: 480px) {
     .subtitle {
         font-size: 14px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
 
     .title {
         font-size: 16px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
 
     #menu {
@@ -334,14 +346,11 @@ a {
     }
 
     .is-active .bar1 {
-        transform: rotate(-45deg) translate(-10px, 7px)
+        transform: rotate(-45deg) translate(-10px, 6px)
     }
 
     .is-active .bar3 {
         transform: rotate(45deg) translate(-2px, 1px)
     }
     
-    .hero{
-        padding-left: 10px;
-    }
 }
