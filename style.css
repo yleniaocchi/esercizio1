@@ -11,9 +11,10 @@
     box-sizing: border-box;
 }
 
+
 html,
 main {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     width: 100vw;
     height: 100vh;
 }
@@ -54,7 +55,7 @@ a {
     text-decoration: none;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .big-text {
         font-size: 35px;
     }
@@ -78,11 +79,12 @@ a {
     height: 100%;
 
 }
+
 .menucontent {
     color: #000000;
     width: 28px;
     height: 4px;
-    background:#000000;
+    background: #000000;
     border-radius: 10px;
     margin: 5px 0;
     transition: ease-in-out 0.2s;
@@ -107,7 +109,7 @@ a {
     border-radius: 30px;
     background: rgba(2, 2, 2, 0.525);
     left: 100vw;
-    transition: all 0.4s cubic-bezier(.215, .61, .355, 1);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 #menu.is-active {
@@ -120,11 +122,11 @@ a {
 }
 
 .is-active .bar1 {
-    transform: rotate(-45deg) translate(-13px, 11px)
+    transform: rotate(-45deg) translate(-13px, 11px);
 }
 
 .is-active .bar3 {
-    transform: rotate(45deg) translate(-1px, 0px)
+    transform: rotate(45deg) translate(-1px, 0px);
 }
 
 
@@ -145,7 +147,8 @@ a {
 }
 
 #menu ul li a:hover {
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.671);
+    font-weight: 900;
     transition: ease-in-out 0.4s;
 
 }
@@ -153,7 +156,7 @@ a {
 .title {
     padding-top: 30px;
     padding-left: 30px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 .subtitle {
@@ -182,9 +185,9 @@ a {
 }
 
 @media (max-width: 768px) {
-.hero__content{
-    margin-left: 15px;
-}
+    .hero__content {
+        margin-left: 15px;
+    }
 }
 
 .about {
@@ -215,7 +218,7 @@ a {
     .about {
         flex-wrap: wrap;
         height: auto;
-        margin-top: 0px;
+        margin-top: 100px;
     }
 
     .about__img,
@@ -241,6 +244,10 @@ a {
     .grid {
         flex-wrap: wrap;
     }
+ .grid .col {
+    width:100%;
+    margin-left: 20px;
+ }
 
 }
 
@@ -249,8 +256,8 @@ a {
 }
 
 .carousel-cell {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 100%;
     line-height: 300px;
@@ -258,10 +265,10 @@ a {
     margin-right: 30px;
 }
 
-.img-carousel{
-height: 300px;
-width: 300px;
-border-radius: 100%;
+.img-carousel {
+    height: 280px;
+    width: 280px;
+    border-radius: 100%;
 }
 
 
@@ -281,9 +288,8 @@ border-radius: 100%;
     }
 
     #menu {
-        font-size: 22px
+        font-size: 22px;
     }
-
 
 }
 
@@ -297,7 +303,7 @@ border-radius: 100%;
     }
 
     #menu {
-        font-size: 20px
+        font-size: 20px;
     }
 
 }
@@ -312,7 +318,8 @@ border-radius: 100%;
     }
 
     #menu {
-        font-size: 18px
+        font-size: 18px;
+
     }
 
 }
@@ -338,6 +345,7 @@ border-radius: 100%;
     }
 
     .menucontent {
+
         width: 20px;
         height: 3px;
         margin: 3px 0;
@@ -349,11 +357,11 @@ border-radius: 100%;
     }
 
     .is-active .bar1 {
-        transform: rotate(-45deg) translate(-10px, 6px)
+        transform: rotate(-45deg) translate(-10px, 6px);
     }
 
     .is-active .bar3 {
-        transform: rotate(45deg) translate(-2px, 1px)
+        transform: rotate(45deg) translate(-2px, 1px);
     }
-    
+
 }

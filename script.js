@@ -11,3 +11,4 @@ $( () => {
   });
   var flkty = new Flickity( '.main-carousel', {
   });
+
