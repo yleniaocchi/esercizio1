@@ -257,15 +257,6 @@ a {
   padding: 150px 0px;
 }
 
-.button {
-  background-color: rgb(0, 0, 0);
-  border-radius: 100px;
-  width: 100px;
-  height: 100px;
-  animation-name: rotate;
-  animation-duration: 0.7s;
-  animation-iteration-count: infinite;
-}
 
 
 @media (max-width: 1920px) {
