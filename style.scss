@@ -154,12 +154,13 @@ a {
 #title {
     padding-top: $normalpad;
     padding-left: $normalpad ;
-    font-weight: bolder;
+    font-weight: 200;
 }
 
 #subtitle {
     padding-left: $normalpad;
     padding-top: 7px;
+    font-weight: 100;
 }
 
 .header {
@@ -167,20 +168,7 @@ a {
     padding-bottom: $normalpad;
 }
 
-.hero {
-    height: 100vh;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    background-size: cover;
-}
 
-.hero__content {
-    width: 100%;
-    max-width: 1350px;
-    margin: 0 auto;
-    margin-left: 30px;
-}
 
 @media (max-width: 768px) {
     .hero__content {
