@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/yleniaocchi/esercizio1#readme",
   "dependencies": {
-    "hamburgers": "^1.2.1"
+    "gh-pages": "^6.1.0",
+    "hamburgers": "^1.2.1",
+    "parcel": "^2.10.3",
+    "rimraf": "^5.0.5"
   }
 }
