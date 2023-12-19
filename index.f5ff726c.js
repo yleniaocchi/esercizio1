@@ -1,0 +1,2 @@
+window.onload=()=>{let t=document.getElementById("autotext"),e="Hi! This is my portfolio!",n=0;!function i(){n<e.length&&(t.innerHTML+=e.charAt(n),n++,setTimeout(i,60))}()},$(()=>{$("#menu-button").on("click",function(){$("#menu, #menu-button").toggleClass("is-active")})});var t=document.querySelector(".main-carousel");new Flickity(t,{cellAlign:"left",contain:!0}),new Flickity(".main-carousel",{});
+//# sourceMappingURL=index.f5ff726c.js.map
