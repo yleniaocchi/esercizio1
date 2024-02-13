@@ -71,7 +71,6 @@ a {
   }
 }
 #first-page {
-  background-image: url(bg.webp);
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -161,11 +160,14 @@ a {
 }
 
 .hero {
+  background-image: url(bg-img.webp);
+  background-position: center;
+  width: 100%;
   height: 100vh;
   display: flex;
-  width: 100%;
   align-items: center;
-  background-size: cover;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .hero__content {
@@ -233,25 +235,7 @@ a {
     margin-left: 20px;
   }
 }
-.main-carousel {
-  padding: 40px 0;
-}
 
-.carousel-cell {
-  height: 280px;
-  width: 280px;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 100%;
-  line-height: 300px;
-  align-items: center;
-  margin-right: 30px;
-}
-
-.img-carousel {
-  height: 280px;
-  width: 280px;
-  border-radius: 100%;
-}
 
 .footer {
   padding: 150px 0px;
@@ -297,6 +281,7 @@ a {
   #menu {
     font-size: 18px;
   }
+
 }
 @media (max-width: 480px) {
   #subtitle {
@@ -326,5 +311,9 @@ a {
   }
   .is-active .bar3 {
     transform: rotate(45deg) translate(-2px, 1px);
+  }
+
+  .hero {
+    background-image: url(bg-phone.webp)
   }
 }/*# sourceMappingURL=style.css.map */
