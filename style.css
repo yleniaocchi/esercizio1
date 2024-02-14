@@ -60,16 +60,20 @@ a {
   .big-text {
     font-size: 35px;
   }
+
   .medium-text {
     font-size: 28px;
   }
+
   .normal-text {
     font-size: 16px;
   }
+
   .small-text {
     font-size: 14px;
   }
 }
+
 #first-page {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -180,6 +184,7 @@ a {
     margin-left: 15px;
   }
 }
+
 .about {
   display: flex;
   height: 100vh;
@@ -193,7 +198,7 @@ a {
 }
 
 .about__img img {
- object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -203,17 +208,68 @@ a {
   padding: 50px;
 }
 
+.Beat {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.beat-copertina{
+  object-fit: cover;
+}
+
+.beat_img {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.beat_img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Beat_content {
+  align-items: center;
+  margin: 3rem;
+  margin-top: -50px;
+
+}
+.beat_homepage {
+ align-items: center;
+ margin-top: 100px;
+}
+
+
+.beat_homepage img {
+  width: 40%; 
+  height: auto;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.mockup_beat {
+  width: 60%;
+}
+
 @media (max-width: 768px) {
   .about {
     flex-wrap: wrap;
     height: auto;
     margin-top: 100px;
   }
+
   .about__img,
   .about__content {
     width: 100%;
   }
 }
+
 .grid {
   display: flex;
   max-width: 1350px;
@@ -230,6 +286,7 @@ a {
   .grid {
     flex-wrap: wrap;
   }
+
   .grid .col {
     width: 100%;
     margin-left: 20px;
@@ -248,10 +305,12 @@ a {
     font-size: 18px;
     padding-top: 0px;
   }
+
   #title {
     font-size: 28px;
     font-weight: 00;
   }
+
   #menu {
     font-size: 18px;
   }
@@ -260,57 +319,73 @@ a {
     font-weight: 200;
   }
 }
+
 @media (max-width: 980px) {
   #subtitle {
     font-size: 18px;
   }
+
   #title {
     font-size: 20px;
   }
+
   #menu {
     font-size: 20px;
   }
 }
+
 @media (max-width: 767px) {
   #subtitle {
     font-size: 16px;
   }
+
   #title {
     font-size: 18px;
   }
+
   #menu {
     font-size: 18px;
   }
 
 }
+
 @media (max-width: 480px) {
   #subtitle {
     font-size: 14px;
     padding-left: 15px;
   }
+
   #title {
     font-size: 16px;
     padding-left: 15px;
   }
+
   #menu {
     font-size: 16px;
   }
+
   #menu-button {
     padding-right: 0px;
   }
+
   .menucontent {
     width: 20px;
     height: 3px;
     margin: 3px 0;
   }
+
   .is-active .bar2 {
     opacity: 0;
   }
+
   .is-active .bar1 {
     transform: rotate(-45deg) translate(-10px, 6px);
   }
+
   .is-active .bar3 {
     transform: rotate(45deg) translate(-2px, 1px);
   }
 
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
