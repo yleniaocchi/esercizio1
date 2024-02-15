@@ -206,6 +206,7 @@ a {
 .about__content {
   width: 40%;
   padding: 50px;
+  margin-right: 2rem;
 }
 
 .Beat {
@@ -216,8 +217,13 @@ a {
   margin-top: 100px;
 }
 
-.beat-copertina{
-  object-fit: cover;
+.beat-copertina {
+  margin-top: 100px;
+  max-width: 60%; 
+  display: block;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 .beat_img {
@@ -236,9 +242,9 @@ a {
 .Beat_content {
   align-items: center;
   margin: 3rem;
-  margin-top: -50px;
 
 }
+
 .beat_homepage {
  align-items: center;
  margin-top: 100px;
@@ -246,7 +252,7 @@ a {
 
 
 .beat_homepage img {
-  width: 40%; 
+  width: 60%; 
   height: auto;
   display: block; 
   margin-left: auto; 
